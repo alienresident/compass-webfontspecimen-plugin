@@ -1,6 +1,6 @@
 # use a Custom config.rb to add the css and fonts folders
 no_configuration_file!
-skip_compilation!
+
 
 file 'config.rb', :like => :file, :to => "config.rb"
 
